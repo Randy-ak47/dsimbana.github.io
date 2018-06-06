@@ -1,0 +1,44 @@
+{
+  "name": "Diego Armando Simbaña",
+  "short_name": "Diego Simbaña",
+  "description": "Bienvenid@s a mi Curriculum Vitae donde encontraras información acerca de mí. Gracias! :)",
+  "background_color": "#2B2B2B",
+  "theme_color": "#848482",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./img/logo_1024.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./img/logo_512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./img/logo_256.jpg",
+      "sizes": "256x256",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./img/logo_128.jpg",
+      "sizes": "128x128",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./img/logo_64.jpg",
+      "sizes": "64x64",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./img/favicon.jpg",
+      "sizes": "16x16",
+      "type": "image/jpg"
+    }
+  ]
+}
