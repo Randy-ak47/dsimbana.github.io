@@ -20,6 +20,7 @@
     <link rel="manifest" href="./js/manifest.json">
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Righteous|Tajawal" rel="stylesheet">
@@ -31,10 +32,11 @@
         <div class="container header-bar">
             <!--Sustituir por los datos del alumno-->
             <h1 class="titulo-nombre minombre">Diego Armando Simbaña</h1>
-            <span>
-              <img style="width: 180px; height: 180px;" class='img-circle' alt="Nombre y Apellido(s)" src="img/d_logo_2.jpg" align="right">
+            <span >
+              <img style="width: 180px; height: 180px;" class='img-circle mifoto' alt="Nombre y Apellido(s)" src="img/d_logo_2.jpg" align="right">
             </span>
-            <p>
+            <address>
+            <p class="midato">
               <!--Sustituir por los datos del alumno-->
               <svg id="i-portfolio" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d="M29 17 L29 28 3 28 3 17 M2 8 L30 8 30 16 C30 16 24 20 16 20 8 20 2 16 2 16 L2 8 Z M16 22 L16 18 M20 8 C20 8 20 4 16 4 12 4 12 8 12 8" />
@@ -43,14 +45,14 @@
                 <path d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z" /></svg> Departamento: Sistemas<br>
               <svg id="i-work" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
               <path d="M30 8 L2 8 2 26 30 26 Z M20 8 C20 8 20 4 16 4 12 4 12 8 12 8 M8 26 L8 8 M24 26 L24 8" /></svg> Organización: btd proyectos
-            </p>
-            <address>
               <!--Sustituir por los datos del alumno-->
+              <br>
               <svg id="i-mail" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d="M2 26 L30 26 30 6 2 6 Z M2 6 L16 16 30 6" />
-            </svg> d.simbana85@gmail.com <br>
+              </svg> d.simbana85@gmail.com <br>
+            </p>
             </address>
-            <nav>
+            <nav class="misocial">
               <!--Sustituir por los datos del alumno-->
               <p><a href="https://twitter.com/randysim_" target="blank"><img class="grey img-circle" src="img/twitter-icon.jpg" width=25></a>
               <!--Sustituir por los datos del alumno-->
@@ -69,7 +71,7 @@
                   <p>Este párrafo contiene una descripción breve del alumno. Se trata de un texto que permite conocer su ocupación actual y sus principales títulos académicos y/o profesionales.  </p>
                   -->
                   <h3>Formación</h3>
-                  <blockquote class="text-muted">
+                  <blockquote class="text-muted aparecer">
                     GRADO SUPERIOR EN INFORMÁTICA
                   </blockquote>
                   <h4>
@@ -78,11 +80,11 @@
                   <h5 class="text-primary">
                     "I.E.S. Enrique Tierno Galván" (Parla)
                   </h5>
-                  <p>
+                  <p class="aparecer">
                     Programación (PHP, Javascript, XML, HTML, Java), Maquetación (CSS, XML, XHTML), Redes (Cisco), Base de Datos (SQL, MySQL), Seguridad (Win, Unix), Aplicaciones Web (Apache,IIS), Sistemas (Windows Server, Linux, Mac), Hardware, Servicios en red, Virtualización en VirtualBox, Wmvare, Servicios de Internet (DHCP, DNS, Correo, FTP...)
                   </p>
                   <br>
-                  <blockquote class="text-muted">
+                  <blockquote class="text-muted aparecer_2">
                     ESCUELA SUPERIOR DE INGENIEROS NAVALES
                   </blockquote>
                   <h4>
@@ -91,15 +93,15 @@
                   <h5 class="text-primary">
                     Ingeniero Superior en Navales y Oceánico
                   </h5>
-                  <p >
+                  <p class="aparecer">
                       AutoCAD, Dibujo técnico, Programación (matlab), Química, Materiales, Calculo, Algebra, Física, Fundamentos de la Navegación,
                   </p>
                   <!--
                   <p>En este segundo párrafo nos centraremos en las capacidades de desarrollo del alumno, de forma que se pueda conocer si sabe programar, en qué lenguajes, qué sistemas operativos conoce y domina, etc. También se pueden mencionar los proyectos que se han desarrollado en GitHub, o cualquier otra información que se considere relevante.</p>
                    -->
                    <hr>
-                  <h3>Cursos</h3>
-                  <table class='table table-striped'>
+                  <h3 class="">Cursos</h3>
+                  <table class='table table-striped midato'>
                     <tr><td><a href="https://www.miriadax.net" target="blank">Introducción a Linux como entorno de desarrollo de sistemas software</a>.</td></tr>
                     <tr><td>Curso Administrador de Base de datos MongoDB: JavaScript, Json, Administración de Sistema Operativo Linux, PRL – CFTIF Getafe CoreNetworks (150h)</td></tr>
                     <tr><td class="text-primary">Certificado de Profesionalidad - Administración de Servicios de Internet (FTP,IIS,AD,DHCP,DNS,SSL,HT TP ,SMTP, WS2008R2) – Grupo Formar-se (510 horas)</td></tr>
@@ -126,22 +128,22 @@
                 <aside>
                   <div class="col-sm-4">
                       
-                        <h4>Idiomas</h4>
+                        <h4 class="aparecer">Idiomas</h4>
                         <ul>
-                          <li >
+                          <li class="">
                             <a href="#" class="badge badge-success">
                               Español
                             </a>
                           </li>
-                          <li >
+                          <li class="">
                             <a href="#" class="badge badge-success">
                                 Inglés
                               </a>
                           </li>
                         </ul>
                           <hr>
-                        <h4>Destrezas</h4>
-                          <ul>
+                        <h4 class="aparecer_2">Destrezas</h4>
+                          <ul class="">
                             <li>
 
                               Capacidad para el trabajo en equipo
@@ -155,22 +157,22 @@
                             <li>Deportista, no fumador, aficionado a la fotografía, a la música, a la lectura. Apasionado por el cine, series, videojuegos y amante de la vida en general.</li>
                           </ul>
                         <hr>
-                        <q class="blockquote-footer text-info">
+                        <q class="blockquote-footer text-info aparecer">
                           Cada día sabemos más y entendemos menos.
                         </q> 
-                        <cite>- Einstein, Albert</cite>
+                        <cite class="">- Einstein, Albert</cite>
                       </div>  
                   </aside>
               </div>
       </article>
     </section>
-    <footer class="footer">
+    <footer class="footer misocial">
       <!--Sustituir por los datos del alumno-->
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
             <a href="https://www.linkedin.com/in/diegosimbana/">
-              <img src="img/d_logo_2.jpg" alt="logo" id="milogo"></a>&copy; Diego Armando Simbaña - 
+              <img src="img/d_logo_2.jpg" alt="logo" id="milogo" class="milogo2"></a>&copy; Diego Armando Simbaña - 
               <!-- <div id="textDiv"></div> -->
               <script type="text/javascript">  
                   var div = document.getElementById("textDiv");
@@ -202,8 +204,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
     <script src="./js/script.js"></script>
 
   </body>

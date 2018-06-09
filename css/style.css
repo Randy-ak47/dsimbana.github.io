@@ -91,7 +91,7 @@ body {
   padding-top: 0px;
   padding-bottom: 20px;
 }
-
+.aparece { opacity:0; }
 .navbar {
   margin-bottom: 20px;
 }

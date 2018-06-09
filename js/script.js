@@ -6,22 +6,22 @@ if ('serviceWorker' in navigator) {
 window.sr = ScrollReveal();
 sr.reveal('.minombre',{
     duration: 2000,
-    origin: 'bottom'
+    origin: 'top'
 });
-sr.reveal('.mifoto',{
-    duration: 2000,
+sr.reveal('.midato',{
+    duration: 2500,
     origin: 'left',
     distance: '300px'
 });
-sr.reveal('.midato',{
-    duration: 2000,
+sr.reveal('.mifoto',{
+    duration: 3000,
     origin: 'right',
     distance: '300px'
 });
 sr.reveal('.misocial',{
     duration: 2000,
     origin: 'bottom',
-    delay: 1000
+    delay: 2000
 });
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -32,8 +32,35 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+/*
 window.onload = function(){
     var contenedor = document.getElementById('contenedor-carga');
     contenedor.style.visibility = 'hidden';
     contenedor.style.opacity = '0';
-}
+};
+*/
+jQuery(function($) { 
+  $('.aparecer').waypoint(function() {
+      $(this).toggleClass( 'bounceIn animated' );
+  },
+  {
+      offset: '70%',
+      triggerOnce: true
+  });
+  
+  $('.aparecer_2').waypoint(function() {
+      $(this).toggleClass( 'fadeInLeft animated' );
+  },
+  {
+      offset: '70%',
+      triggerOnce: true
+  });        
+  
+  $('.milogo2').waypoint(function() {
+      $(this).toggleClass( 'rotateIn animated' );
+  },
+  {
+      offset: '100%',
+      triggerOnce: true
+  });        
+});
